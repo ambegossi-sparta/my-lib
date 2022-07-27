@@ -21,6 +21,9 @@
     "!**/__fixtures__",
     "!**/__mocks__"
   ],
+  "exports": {
+    "./components": "./src/components"
+  },
   "scripts": {
     "test": "jest",
     "typescript": "tsc --noEmit",
